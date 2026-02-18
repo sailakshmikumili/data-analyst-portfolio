@@ -3,17 +3,16 @@
 
 Hi, I'm **Sailakshmi Kumili** 👋
 
-Aspiring Data Analst with hands on experience in **SQL, Excel, Python, and Power BI**.
+Aspiring Data Analst with hands-on experience in **SQL, Excel, Python, and Power BI**.
 
-This repository showcase my data analysis Projects, including:
+This repository showcase my data analysis projects, including:
 
-- SQL-based data exploration adn analysis
+- SQL-based data exploration and analysis
 - Excel dashboards and reporting
 - Power BI interactive visulizations
 - Python data cleaning and analysis
 - An advanced academic projects
 
- **--------**
 
 ## Skills
 
@@ -23,7 +22,7 @@ This repository showcase my data analysis Projects, including:
 - **Power BI**(DAX, Data Modeling, Dashboards)
 - **Data Cleaning & Exploratory Data Analysis (EDA)**
 
-**--------**
+
 
  ## Projects
  Projects are being added and documented. Each project includes:
@@ -39,7 +38,6 @@ Planned project categories:
 - Power BI Reports
 - Python Analysis
 
-**--------**
 
 ## About Me
 
