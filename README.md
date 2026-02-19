@@ -1,45 +1,56 @@
-## data-analyst-portfolio
+# Data Analyst Portfolio
 
+This repository contains my data analysis projects developed using SQL, Excel, Python, and Power BI.  
+The focus of these projects is on data cleaning, validation, exploratory data analysis, and reporting to support data-driven decision making.
 
-Hi, I'm **Sailakshmi Kumili** 👋
+---
 
-Aspiring Data Analst with hands-on experience in **SQL, Excel, Python, and Power BI**.
+##  Tools & Technologies
+- **SQL**: Joins, Subqueries, Aggregations, CTEs, Window Functions
+- **Excel**: Pivot Tables, XLOOKUP/VLOOKUP, Advanced Formulas, Dashboards
+- **Python**: Pandas, NumPy (data cleaning and analysis)
+- **Power BI**: Data Modeling, DAX, Interactive Dashboards
 
-This repository showcase my data analysis projects, including:
+---
 
-- SQL-based data exploration and analysis
-- Excel dashboards and reporting
-- Power BI interactive visulizations
-- Python data cleaning and analysis
-- An advanced academic projects
+## Project Categories
 
+###  SQL Projects
+- Data exploration and analysis using relational databases
+- Writing optimized queries for reporting and insights
+- Validating data accuracy and consistency
 
-## Skills
+### Excel Dashboards
+- Reporting dashboards using Pivot Tables
+- Data cleaning and transformation
+- Business-focused summaries and KPIs
 
-- **SQL** (Joins, CTEs, Window Functions)
-- **Excel** (Pivot Tables, Dashboards)
-- **Python** (Pandas, NumPy, Matplotlib)
-- **Power BI**(DAX, Data Modeling, Dashboards)
-- **Data Cleaning & Exploratory Data Analysis (EDA)**
+### Power BI Reports
+- Interactive dashboards
+- Data modeling and basic DAX
+- Visual storytelling for business users
 
+###  Python Analysis
+- Data cleaning and preprocessing
+- Exploratory Data Analysis (EDA)
+- Working with structured datasets using Pandas
 
+---
 
- ## Projects
- Projects are being added and documented. Each project includes:
-
-- Business problem statement
+## Project Structure
+Each project typically includes:
+- Problem statement
 - Dataset description
 - Tools and techniques used
 - Key insights and outcomes
 
-Planned project categories:
-- SQL Projects
-- Excel Dashboards
-- Power BI Reports
-- Python Analysis
+---
 
+##  Ongoing Work
+Projects are being added and documented regularly as part of my continuous learning and portfolio development.
 
-## About Me
+---
 
-I enjoy transforming raw data into meaningful insights and visualizations that support data-driven decision-making.
-
+## 📫About Me
+Aspiring Data Analyst with graduate-level academic experience and hands-on projects in data analysis, reporting, and data validation.  
+Interested in Entry-Level Data Analyst, Reporting Analyst, and Internship opportunities.
