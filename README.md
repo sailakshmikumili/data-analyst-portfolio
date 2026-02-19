@@ -51,6 +51,6 @@ Projects are being added and documented regularly as part of my continuous learn
 
 ---
 
-## 📫About Me
+## About Me
 Aspiring Data Analyst with graduate-level academic experience and hands-on projects in data analysis, reporting, and data validation.  
 Interested in Entry-Level Data Analyst, Reporting Analyst, and Internship opportunities.
