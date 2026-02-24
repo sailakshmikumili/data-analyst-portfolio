@@ -1,0 +1,3 @@
+--- 2. Top Customers & Most Frequently Purchased Products
+
+SELECT  p.ProductName,  tc.CustomerName,  COUNT(*) AS OrderCountFROM (    SELECT TOP 5      c.CustomerID,      c.CustomerName,      COUNT(o.OrderID) AS OrderCount    FROM Customers c    JOIN Orders o      ON c.CustomerID = o.CustomerID    GROUP BY c.CustomerID, c.CustomerName    ORDER BY COUNT(o.OrderID) DESC) tcJOIN Orders o  ON tc.CustomerID = o.CustomerIDJOIN OrderDetails od  ON o.OrderID = od.OrderIDJOIN Products p  ON od.ProductID = p.ProductIDGROUP BY  p.ProductName,  tc.CustomerNameORDER BY  OrderCount DESC;
