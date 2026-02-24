@@ -50,5 +50,3 @@ practical use of joins and aggregation for business insights.
 ### 5. Order Distribution by Employee
 - Analyzed order workload per employee
 - Detected uneven workload distribution
-
----
