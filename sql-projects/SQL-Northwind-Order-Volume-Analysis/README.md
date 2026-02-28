@@ -50,32 +50,3 @@ practical use of joins and aggregation for business insights.
 ### 5. Order Distribution by Employee
 - Analyzed order workload per employee
 - Detected uneven workload distribution
-
----
-
-### SQL Queries
-
-
-### 1. Customers by Country
-
-SELECT Country, COUNT(*) AS TotalCountFROM CustomersGROUP BY CountryORDER BY TotalCount DESC;
-
-
-### 2. Top Customers & Most Frequently Purchased Products
-
-SELECT  p.ProductName,  tc.CustomerName,  COUNT(*) AS OrderCountFROM (    SELECT TOP 5      c.CustomerID,      c.CustomerName,      COUNT(o.OrderID) AS OrderCount    FROM Customers c    JOIN Orders o      ON c.CustomerID = o.CustomerID    GROUP BY c.CustomerID, c.CustomerName    ORDER BY COUNT(o.OrderID) DESC) tcJOIN Orders o  ON tc.CustomerID = o.CustomerIDJOIN OrderDetails od  ON o.OrderID = od.OrderIDJOIN Products p  ON od.ProductID = p.ProductIDGROUP BY  p.ProductName,  tc.CustomerNameORDER BY  OrderCount DESC;
-
-### 3.Inactive Customers
-
-SELECT    c.CustomerID,    c.CompanyName,    COUNT(o.OrderID) AS OrderCountFROM Customers cLEFT JOIN Orders o    ON c.CustomerID = o.CustomerIDGROUP BY    c.CustomerID,    c.CompanyNameHAVING COUNT(o.OrderID) = 0ORDER BY c.CompanyName;
-
-###  4. Product Distribution by Supplier
-
-SELECTs.SupplierName,COUNT(p.ProductID) AS ProductCountFROM Suppliers sLEFT JOIN Products pON s.SupplierID = p.SupplierIDGROUP BY s.SupplierNameORDER BY ProductCount DESC;
-
-### 5. Order Distribution by Employee
-
-SELECTCONCAT(e.FirstName, ' ', e.LastName) AS EmployeeName,COUNT(o.OrderID) AS OrderCountFROM Employees eLEFT JOIN Orders oON e.EmployeeID = o.EmployeeIDGROUP BYe.FirstName,e.LastNameORDER BY OrderCount DESC;
-
-
-
